@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Dias.inc.png" type="image/x-icon">
+    <script src="scripts.js"defer></script>
+    <title>Redes | Dias.inc</title>
+</head>
+<body>
+    <header>
+         
+        <nav class="menu">
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+                <ul class="menu-links" id="menu-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="banco_dados.html">Banco de Dados</a></li>
+                    <li><a href="logica_computacional.html">Programação</a></li>
+                    <li><a href="eletroeletronica.html">Eletroeletrônica</a></li>
+                    <li><a href="redes.html">Redes</a></li>
+                    <li><a href="algoritmoFluxograma.html">Algoritmos e Fluxogramas</a></li>
+                </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section id="apresentacao">
+            <h1 class="titulo">Fundamentos de redes</h1>
+            <p class="texto_redes">nas aulas de fundamentos de redes, agente usou o Cisco Packet Tracer para simular servidores e reder de diversas configurações como DHCP, DNS, HTTP etc...</p>
+        </section>
+        <hr><div class="espaco"></div>
+        <section id="rede-interna">
+            <h2>Elementos, Componentes e Configuração de Rede Interna</h2>
+            <p>Uma rede interna é composta por dispositivos como switches, computadores e servidores que se conectam para compartilhar dados e serviços. Utilizando o Cisco Packet Tracer, é possível simular redes e configurar a comunicação entre eles.</p>
+            <img src="rede-servidores.png" alt="rede interna" class="imagem-grande">
+            <div class="espaco"></div>
+        </section>
+        
+
+        <hr>
+        <div class="espaco"></div>
+        <section id="configuracao-servidores">
+            <h2>Configuração dos Servidores: DNS, HTTP e DHCP</h2>
+            <p><strong>Servidor DNS:</strong> Responsável por traduzir nomes de domínio em endereços IP, facilitando a localização de recursos na rede.</p>
+            <p><strong>Servidor HTTP:</strong> Permite a hospedagem de sites e a comunicação com navegadores da web através do protocolo HTTP.</p>
+            <p><strong>Servidor DHCP:</strong> Designa endereços IP automaticamente aos dispositivos na rede, otimizando a configuração.</p>
+        </section>
+
+        <hr>
+        <div class="espaco"></div>
+        <section id="equipamentos-redes">
+            <h2>Equipamentos Aplicados em Redes</h2>
+            <div class="div3">
+                <div>
+                    <p><strong>Switch:</strong> Dispositivo que conecta diferentes dispositivos em uma rede local.</p>
+                    <img src="switchs.png">
+                </div>
+                <div>
+                    <p><strong>Roteador:</strong> Interconecta redes distintas e define rotas de dados.</p>
+                    <img src="roteador.png">
+                </div>
+                <div>
+                    <p><strong>Modem:</strong> Converte sinais digitais em analógicos para comunicação com a Internet.</p>
+                    <img src="modem.png">
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        <div class="espaco"></div>
+        <section id="conceito-servidor">
+            <h2>Conceito de Servidor</h2>
+            <p>Um servidor é um sistema que fornece recursos, dados ou serviços a outros computadores em uma rede. Os servidores podem ser dedicados a funções específicas, como hospedar sites ou gerenciar domínios.</p>
+        </section>
+
+        <hr>
+        <div class="espaco"></div>
+        <section id="dns">
+            <h2>DNS - O que é?</h2>
+            <p>DNS (Domain Name System) é um sistema que associa nomes de domínio a endereços IP, permitindo que os usuários acessem websites através de URLs amigáveis.</p>
+            <img src="dns.png" alt="">
+            <div class="espaco"></div>
+        </section>
+
+        <hr>
+        <div class="espaco"></div>
+        <section id="http">
+            <h2>HTTP - O que é?</h2>
+            <p>HTTP (Hypertext Transfer Protocol) é o protocolo que permite a troca de informações entre navegadores e servidores web, sendo o padrão para transmissão de dados na Internet.</p>
+            <img src="http.png" alt="">
+            <div class="espaco"></div>
+        </section>
+
+        <hr>
+        <div class="espaco"></div>
+        <section id="dhcp">
+            <h2>DHCP - O que é?</h2>
+            <p>DHCP (Dynamic Host Configuration Protocol) é um protocolo que fornece automaticamente endereços IP para dispositivos em uma rede, facilitando a configuração de conexões.</p>
+            <img src="dhcp.png" alt="">
+            <div class="espaco"></div>
+        </section>
+
+        <hr>
+        <div class="espaco"></div>
+        <section id="crimpagem">
+            <h2>Foto da Crimpagem</h2>
+            <p>A crimpagem é o processo de conectar conectores RJ-45 aos cabos de rede. Veja abaixo uma imagem que mostra o processo:</p>
+             <img src="crimpagem.jpg" alt="">
+             <div class="espaco"></div>
+        </section>
+        <div class="espaco"></div>
+        <section id="cabo-rede">
+            <h2>Cabo de Rede - Pinagem</h2>
+            <p>Os cabos de rede utilizam uma pinagem específica para garantir a correta transmissão de dados. Os padrões mais comuns são o T568A e o T568B.</p>
+            <p><strong>Pinagem T568B:</strong> Branco/laranja, Laranja, Branco/verde, Azul, Branco/azul, Verde, Branco/marrom, Marrom.</p>
+            <img src="pinagem.png">
+            <div class="espaco"></div>
+        </section>
+
+        <hr>
+        <div class="espaco"></div>
+        <section id="modelo-osi">
+            <h2>Conceito do Modelo OSI</h2>
+            <p>O modelo OSI (Open Systems Interconnection) é uma arquitetura em sete camadas que define padrões para a comunicação de sistemas em rede, facilitando a interoperabilidade.</p>
+            <img src="osi.png" alt="">
+            <div class="espaco"></div>
+        </section>
+
+        <hr>
+        <div class="espaco"></div>
+
+        <section id="tcp-ip">
+            <h2>Conceito do TCP/IP</h2>
+            <p>O modelo TCP/IP é a base para a comunicação na Internet e se divide em quatro camadas: Aplicação, Transporte, Internet e Acesso à Rede. TCP e IP são os protocolos principais que definem as regras de transmissão de dados.</p>
+            <img src="tcp.png" alt="">
+            <div class="espaco"></div>
+        </section>
+    </main>
+    <br>
+
+    <div id="rodape">
+        <footer>
+          <p>Todos direitos reservados | Dias.Inc &copy;</p>
+          <p>Email : augusto_g_dias@estudante.sesisenai.org.br</p>
+          <div class="image-container">
+            <a href="https://github.com/guto2323?tab=repositories">
+              <img src="githbu.png" alt="GitHub Logo" class="footer-image">
+            </a>
+            <a href="https://wa.me/5547984793012">
+              <img src="whatzap.png" alt="WhatsApp Logo" class="footer-image">
+            </a>
+          </div>
+        </footer>
+      </div>
+</body>
+</html>

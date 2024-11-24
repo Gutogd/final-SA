@@ -1,0 +1,223 @@
+
+
+body{
+    background-color:#c6d4e1;
+    font-size: 25px;
+    
+    overflow-y: scroll;
+   
+    
+}
+
+#mapas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+iframe {
+    border: none; 
+    border-radius: 16px;
+    height: 400px;
+    width: 600px;
+    border: 2px, solid black;
+    box-shadow: 10px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+header{
+    text-align: center;
+}
+
+main {
+    padding: 10px 20px;
+}
+
+hr {
+    border: 1px solid  #03ac9e;
+}
+
+h1{
+    font-family: 'cooper';
+}
+
+h2 {
+    color: #44749d;
+    font-family: 'cooper';
+}
+
+
+.titulo_principal{
+    padding: 4px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: url('./ronauta.gif');
+    border: solid #44749d 8px;
+    border-radius: 0 0 12px 12px;
+}
+
+h2 {
+    color: dodgerblue;
+}
+
+
+section{
+    
+    transition: 0.3s;
+    transform: 0.3s;
+
+}
+
+section:hover{
+    transform: translateY(-5px);
+}
+
+
+
+
+nav a{
+    font-size: 24px;
+    font-family: 'Cooper';
+    color: rgb(0, 255, 255);
+    text-decoration: none;
+    margin-right: 24px;
+    text-align: center;
+   
+}
+
+.titulo{
+   color: dodgerblue;
+   font-family: 'Courier New';
+  font-style: italic;
+  
+}
+
+#mapa{
+    align-items: center;
+}
+
+#rodape img{
+    align-items: center;
+}
+
+
+#rodape {
+text-align: center;
+margin-top: 20px;
+color: #06fff3;
+}
+
+.image-container {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px; 
+margin-top: 10px;
+}
+
+.footer-image {
+width: 100px;
+height: 60px;
+}
+
+footer{
+background-color:#44749d;
+margin: 10px auto;
+
+}
+
+img {
+    max-width: 40%; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(227, 5, 5, 0.1), 0 1px 3px rgba(217, 1, 1, 0.06); }
+
+
+    img:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+    }
+    
+
+.botao-imagem{
+    font-size: 24px;
+    font-family: 'Cooper';
+    color: rgba(4, 53, 214, 0.459);
+    text-decoration: none;
+    margin-right: 24px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+    
+}
+
+.botao-imagem img {
+    border-radius: 8px; 
+    margin-bottom: 8px; 
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.texto_principal{
+
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin-right: 24px;
+    padding: 1px;
+    border: 2px, solid black;
+    box-shadow: 10px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+a:hover{
+    padding: 12px;
+    border-radius: 12px;
+    transition: 3s;
+    font-size: 20px;
+   
+}
+
+
+
+.espaco{
+    padding-top: 65px;
+}
+
+@keyframes slide-merda {
+    0% {
+        transform: translateY(-1000px);
+    }
+    20% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+}
+
+@keyframes slide-in-top {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }

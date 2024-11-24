@@ -1,0 +1,5 @@
+Fazer a pagina de redes = andamento (prioridade)
+fazer a pagina de dados = ainda não
+fazer a pagina de lógica = ainda não
+botar os direitos do criador e contato na pagina = ainda não
+finalizar o style = ainda não

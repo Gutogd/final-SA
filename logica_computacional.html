@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"defer></script>
+    <title>Logica computacional | Dias.Inc</title>
+</head>
+<body>
+    
+        <header>
+            
+            <br>
+            
+            <nav class="menu">
+                <div class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                    <ul class="menu-links" id="menu-links">
+                       <li><a href="index.html">Home</a></li>  
+                         <li><a href="eletroeletronica.html">eletroeletronica</a></li>
+                        <li><a href="redes.html">Redes</a></li> 
+                         <li><a href="banco_dados.html">Banco de Dados</a></li>
+                         <li><a href="algoritmoFluxograma.html">Algoritmos e Fluxogramas</a></li>
+                         
+                    </ul>
+            </nav>
+        </header>
+        <div class="espaco"></div>
+    
+      
+    
+        <section>
+            <div id="questao1_logica">
+                <script src="script.js"defer></script>
+                <h1>Questao 1.</h1>
+                <h2>Soma de matrizes</h2>
+                <p>Elabore um programa que gera duas matrizes uma matriz 7 x 7, sendo uma
+                    do tipo do tipo diagonal secundária, cujos os elementos da diagonal secundária
+                    são iguais a 5 e outra matriz diagonal principal, cujos elementos são iguais a 7.
+                    Após gerar as duas matrizes, faça a soma entre elas. Use o laço “for” para
+                    elaborar a lógica do programa.</p>
+                    <button onclick="responder()">Calcular</button>  
+                    <div id="res"></div>
+            </div>
+            
+        </section>
+        <div class="espaco"></div>
+        <section>
+            <div id="questao2_logica">
+                <script src="q02.js"defer></script>
+                <h1>Questao 2.</h1>
+                <h2>Soma dos Pares e Impares</h2>
+                <p>Elabore um programa que gera uma matriz 7 x 7 com números aleatórios em
+                    um intervalo de 1 à 20. Após gerar a matriz, faça a soma dos números pares e
+                    ímpares da matriz separadamente. Use o laço “for” para elaborar a lógica do
+                    programa.</p>
+                    <button onclick="resposta()">resposta</button>
+                    <div id="res2"></div>
+            </div>
+        </section>
+        <div class="espaco"></div>
+        <section>
+            <div id="questao3_logica">
+                <script src="q03.js"defer></script>
+                <h1>Questao 3.</h1>
+                <h2>Soma de colunas impares</h2>
+                <p>Elabore um programa que gera uma matriz 8 x 8 de números aleatórios em
+                    um intervalo de 1 à 50. Faça a soma dos elementos das colunas cujos os índices
+                    são ímpares. Use o laço “for” para elaborar a lógica do programa.</p>
+                    <button onclick="resposta3()">resposta</button>
+                    <div id="res3"></div>
+            </div>
+        </section>
+        <div class="espaco"></div>
+        <section>
+            <div id="ordencao"></div>
+            <script src="ordenacao.js" defer></script>
+            <h1>Questao 4.</h1>
+            <h2>Ordenacao de Array</h2>
+            <p>programação dos métodos de busca e ordenação buble Sort, insertion sort e selection sort. Com uma array de 10 elementos. (Clique em gerar array para obter um array aleatorio), (clique duas vezes no metodo que deseja para obter o array e depois organiza-lo).</p>
+            <button onclick="bubble()">bubble</button> 
+            <button onclick="instertion()">insertion</button>
+            <button onclick="selection()">selection</button>
+            <button onclick="gerarArray()">Gerar Array aleatorio</button>
+            <div id="res4"></div>
+        </section>
+        <div class="espaco"></div>
+        <section>
+            <div id="laco_for">
+                <script src="lacofor.js"defer></script>
+                <h1>Questao 5.</h1>
+                <h2>Utilização do laço FOR</h2>
+                <p>Cria uma array de 10 elementos aleatórios usando o laço for ordena eles e enseguida tira cada elemento na lógica de array PILHA utilizando um laço FOR.</p>
+                <button onclick="pilha()">Gerar</button>
+                <div id="res5"></div>
+            </div>
+        </section>
+        <div class="espaco"></div>
+        <section>
+            <div id="laco_while">
+                <script src="while.js"defer></script>
+                <h1>Questao 5.</h1>
+                <h2>Utilização do laço While.</h2>
+                <p>Gera um número aleatório entre 1 à 20. e apartir de um laço WHILE enquanto ele for menor que 0 ele subtrai um número dele mesmo.</p>
+                <button onclick="exLacoWhile()">Gerar</button>
+                <div id="res6"></div>
+            </div>
+        </section>
+        <div class="espaco"></div>
+        <section>
+            <div id="If_Else">
+                <script src="ExLacoIf.js"defer></script>
+                <h1>Questao 6.</h1>
+                <h2>Utilização da estrutura IF e ELSE</h2>
+                <p>Gera um número aleatório entre 100 e -10 aonde será representado como idade, e apartir de uma estrutura IF-ELSE ele falará se essa idade é apta a votar, ou se opcional ou inválida</p>
+                <button onclick="exIfElse()">Gerar</button>
+                <div id="res7"></div>
+            </div>
+        </section>
+
+    
+
+        <div id="rodape">
+            <footer>
+              <p>Todos direitos reservados | Dias.Inc &copy;</p>
+              <p>Email : augusto_g_dias@estudante.sesisenai.org.br</p>
+              <div class="image-container">
+                <a href="https://github.com/guto2323?tab=repositories">
+                  <img src="githbu.png" alt="GitHub Logo" class="footer-image">
+                </a>
+                <a href="https://wa.me/5547984793012">
+                  <img src="whatzap.png" alt="WhatsApp Logo" class="footer-image">
+                </a>
+              </div>
+            </footer>
+          </div>
+ 
+    
+</body>
+</html>
